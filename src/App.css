@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700');
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(197, 197, 197);
+    border-radius: 10px;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-body {
+  max-width: 38pc;
+  min-width: 25pc;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  padding-bottom: 1pc;
+}
+
+nav {
+  background-color: rgb(216, 45, 73);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgb(255, 200, 200);
+  margin-bottom: 4pc;
+}
+
+nav > img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.des-cont {
+  height: 12pc;
+  margin-bottom: 2pc;
+  display: flex;
+  justify-content: center;
+  padding: 0pc 2pc;
+}
+
+.des-photo {
+  width: 23%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.des-det-cont {
+    margin-left: 1.3pc;
+    margin-top: 1pc;
+}
+
+.dest-det-name {
+  margin: 0;
+}
+
+.des-det-pin {
+  width: 11px;
+  margin-right: 1px;
+}
+
+.des-det-loc {
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.des-det-map {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.433);
+}
+
+.des-det-cont > h1 {
+  margin: 0;
+  font-size: 1.6pc;
+}
+
+.des-det-cont > h5 {
+  margin: 0;
+  margin-top: 13px;
+  font-size: 10px;
+}
+
+.des-det-cont > p {
+  margin: 0;
+  font-size: 11px;
+  max-width: 350px;
+  margin-top: 2px;
+}
